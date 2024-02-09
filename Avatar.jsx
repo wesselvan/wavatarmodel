@@ -14,7 +14,7 @@ export default function Avatar(props) {
 
   
   const group = useRef();
-  const { nodes, materials } = useGLTF("/models/wevatar.glb");
+  const { nodes, materials } = useGLTF("/mnpmodels/wevatar.glb");
 
 const { animations: wavingAnimation } = useFBX("/animations/Waving.fbx");
 const { animations: standingAnimation } = useFBX("/animations/StandingIdle.fbx");
